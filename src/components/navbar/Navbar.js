@@ -10,18 +10,18 @@ function Navbar(){
     <div id="navbar">
         <div id="name">
            <a href="home"> <img src={logo} alt="image"/></a>
-            <h2>Amit Pudasaini</h2>
+            <h2 style={{color:"white" }}>AMIT PUDASAINI</h2>
         </div>
         <div className="navlinks">
             <ul>
-                <li><a href="about">About</a></li>
+                <li><a href="about">About Me</a></li>
                 <li><a href="experience">Experience</a></li>
                 <li><a href="projects">Projects</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
         </div>
         <div className="hamburger">
-            <i className="fa fa-bars"></i>
+            <i className="fa fa-bars" style={{color:"white"}}></i>
         </div>
     </div>
 </header>
