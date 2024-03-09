@@ -1,0 +1,103 @@
+#navbar {
+   display: flex;
+   justify-content: space-around;
+   background-color: #a7aadb;
+   height: 75px;
+   width: 100%;
+   border-radius: 5px;
+   font-family: sans-serif;
+}
+
+img {
+   display: none;
+}
+.navlinks{
+   padding: 10px 0px;
+}
+#navbar .hamburger {
+   display: none;
+}
+
+.navlinks li {
+   display: inline;
+   list-style-type: none;
+   padding: 4px 10px;
+}
+
+.navlinks a {
+   text-decoration: none;
+   font-family: sans-serif;
+   padding: 5px 12px;
+   border-radius: 10px;
+   font-size: 16px;
+   font-weight: bold;
+   color: black;
+}
+
+@media screen and (max-width:852px) {
+   #name h2 {
+      display: none;
+   }
+
+   img {
+      display: block;
+      height: 55px;
+      padding-top: 10px;
+      border-radius: 60%;
+      margin-left: 15%;
+   }
+}
+
+@media screen and (max-width:852px) {
+   #navbar {
+      justify-content: space-between;
+      padding: 0px 10px;
+      margin-left: -10px;
+   }
+}
+
+@media screen and (max-width:650px) {
+   #navbar .hamburger {
+      display: block;
+      font-size: 30px;
+      cursor: pointer;
+      position: absolute;
+      top: 15px;
+      right: 25px;
+      color: #111111;
+      transition: all 0.5s ease;
+   }
+   #navbar {
+      flex-direction: row;
+      text-align: center;
+   }
+   .active ul{
+      position: absolute;
+      top: 60px;
+      left: 0;
+      display: block;
+      background: #AAAAAA;
+      width: 100%;
+      padding-left: 0px;
+   }
+   .active ul li{
+      padding: 10px;
+   }
+   .active ul li a{
+      width: 100%;
+      padding: 12px;
+   }
+   .navlinks{
+      display: none;
+   }
+   .active{
+      display: block;
+   }
+   .navlinks li{
+      display: block;
+      border-radius: 25px;
+   }
+   .navlinks li:hover{
+      background: #ccc;
+   }
+}
