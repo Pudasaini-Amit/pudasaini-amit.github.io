@@ -10,7 +10,7 @@ function Navbar(){
     <div id="navbar">
         <div id="name">
            <a href="home"> <img src={logo} alt="image"/></a>
-            <h2 style={{color:"white" }}>AMIT PUDASAINI</h2>
+           <a href="about" style={{textDecoration:"none"}}><h2 style={{color:"white" }}>AMIT PUDASAINI</h2></a>
         </div>
         <div className="navlinks">
             <ul>
