@@ -1,0 +1,90 @@
+#container{
+   background-color: #000013;
+   padding: 1px;
+}
+
+#contact{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   color: white;
+}
+#contact .left,
+#contact .right{
+   width: 450px;
+   height: 350px;
+   padding: 20px;
+   margin: 20px;
+   font-family: Arial, sans-serif;
+   box-shadow: 1px 1px 50px #040422;
+   text-align: center;
+}
+
+#contact .right .contact_details{
+   text-align: left;
+   padding: 2.5% 30%;
+   font-size: 20px;
+}
+#contact .right .contact_details div{
+   padding: 2%;
+   line-height: 1.6px;
+}
+
+
+.form-control{
+  
+   border: 1px solid black;
+    font-size: 16px;
+   border-radius: 3px;
+    margin: 6.5px;
+   height: 30px;
+   width: 90%;
+   
+ }
+ .formcontrol{
+   border: 1px solid white;
+   border-radius: 3px;
+   font-size: 16px;
+   margin-top: 6px;
+   padding:5px;
+   width: 90%;
+   background-color: white;
+
+}
+.btn{
+  
+   padding: 7px 15px;
+   font-size: 20px;
+   border-radius: 7px;
+   background-color: white;
+   color: rgb(12, 12, 12);
+   border-width: 0.5px;
+   font-weight: 550;
+   text-align: center;
+   
+ }
+ .btn:hover{
+    background-color:#1a1919;
+    border-color: #ced9d1;
+    cursor: pointer;
+    color: white;
+ }
+ .btn:active{
+    background-color: #555050;
+    color: #161422;
+ }
+ @media screen and (max-width:516px){
+   
+   #contact .right p{
+          font-size: 3.5vw;
+          word-spacing: 0.5px;
+    }
+    #contact .right h3{
+      font-size: 3.5vw;
+      
+    }
+    #contact .right {
+      max-height: 300px;
+   
+   }
+ }

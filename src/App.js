@@ -4,7 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
-
+import Contact from './pages/contact/Contact';
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
+    <Contact/>
     <Footer/>
     </>
   );

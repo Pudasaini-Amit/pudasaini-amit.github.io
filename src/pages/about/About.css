@@ -24,8 +24,8 @@ h1{
 }
 #about .left,
 #about .right{
-   width: 550px;
-   height: 400px;
+   width: 450px;
+   height: 350px;
    padding: 20px;
    color: white;
    background-color: #010116;    
@@ -46,10 +46,11 @@ h1{
       margin-right: -10px;
    }
 }
-@media screen and (max-width:412px){
+@media screen and (max-width:421px){
    
-   .left p{
-         font-size: 4vw;
+  #about .left p{
+         font-size: 3.5vw;
+         word-spacing: 0.5px;
    }
    
 }
