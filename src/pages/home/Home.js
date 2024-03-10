@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import cover from "./cover-1.jpg"
+
 
 
 function Home(){
