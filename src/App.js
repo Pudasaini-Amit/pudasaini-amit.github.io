@@ -5,6 +5,10 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
+import Experience from './pages/experience/Experience';
+import Project from './pages/projects/Project';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 
 function App() {
@@ -14,8 +18,10 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
+    <Project/>
     <Contact/>
     <Footer/>
+   
     </>
   );
 }
