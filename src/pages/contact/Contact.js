@@ -27,7 +27,7 @@ function Contact(){
                                  id="mail" 
                                  placeholder="Email" required/>
                            </div>
-
+ 
                            <div>
                               <input 
                                  type="tel" 
