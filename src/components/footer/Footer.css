@@ -2,7 +2,7 @@
    background-color: black;
    
    width: 100%;
-  padding-bottom: 0.5px;
+   float: bottom;
 }
 #social{
    display: flex;
@@ -35,8 +35,8 @@
 #social :active{
    text-shadow: none;
 }
-@media screen and (max-width:852px){
+/* @media screen and (max-width:852px){
    #footer{
       padding-right: 10px;
    }
-}
+} */

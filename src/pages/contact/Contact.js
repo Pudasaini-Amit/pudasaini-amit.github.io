@@ -5,9 +5,9 @@ import "./Contact.css";
 
 function Contact(){
    return(
-         <div id="container">
+         <div id="contact" >
             <center><h1>  Get In Touch</h1></center>
-            <div id="contact">
+            <div  id="container">
                <div className="left">
                   <form action="#" method="post" class="form">
                      <div id="inputs">

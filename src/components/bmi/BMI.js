@@ -4,8 +4,8 @@ function BmiCalculator(){
 
    const [height, setHeight]=React.useState(0);
    const [weight, setWeight]=React.useState(0);
-   const [heightErrorMsg, setHeightErrorMsg]=React.useState("");
-   const [weightErrorMsg, setWeightErrorMsg]=React.useState("");
+   const [heightErrorMsg, setHeightErrorMsg]=React.useState(" ");
+   const [weightErrorMsg, setWeightErrorMsg]=React.useState(" ");
 
 
 
@@ -34,14 +34,14 @@ function BmiCalculator(){
          <label>Enter your height in Meter  </label>
          <input type="number" name="Height" value={height}  id="height" min={0} onChange={(event)=>setHeight(event.target.value)}/>
          <span><br/>{heightErrorMsg}</span>
-         <br/><br/>
+         <br/>
 
 
 
          <label>Enter your weight in KG  </label>
          <input type="number" name="Weight" value={weight} id="weight" min={0} onChange={(event)=>setWeight(event.target.value)}/>
          <span><br/>{weightErrorMsg}</span>
-         <br/> <br/>
+         <br/>
          <button onClick={calculate}>Calculate</button>
 
          <p>Your BMI is:<span id="bmi"></span></p>

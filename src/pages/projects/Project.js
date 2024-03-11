@@ -4,9 +4,9 @@ import BmiCalculator from "../../components/bmi/BMI";
 
 function Project() {
    return (
-     <div id="container">
+     <div id="projects">
          <center><h1>Projects</h1></center>
-         <div id="projects">
+         <div id="container">
             <div className="card">
                <BmiCalculator/>
             </div>

@@ -1,4 +1,4 @@
-#about{
+#container{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -9,11 +9,11 @@
   
    
 }
-#about a{
+#container a{
    text-decoration: none;
    color: #ceceeb;
 }
-#about a:hover{
+#container a:hover{
    color: white;
    text-shadow: 1px 1px 30px white;
 }
@@ -22,8 +22,8 @@ h1{
   background-color: rgb(0, 0, 19);
   color: white; 
 }
-#about .left,
-#about .right{
+#container .left,
+#container .right{
    width: 450px;
    height: 350px;
    padding: 20px;
@@ -32,25 +32,37 @@ h1{
    margin: 10px;
    text-align: justify;
    font-family: Arial, sans-serif;
-   box-shadow: 1px 1px 50px #040422;
+   box-shadow: 1px 1px 50px #080841;
    margin: 20px;
    
 }
 
 
-#about p {
+#container p {
    padding: 5% 0px;
 }
-@media screen and (max-width:852px){
-   #about,h1{
-      margin-right: -10px;
+/* @media screen and (max-width:852px){
+   #container .right,
+   #container .left
+   {
+     padding-top: -10px;
    }
-}
-@media screen and (max-width:421px){
+} */
+@media screen and (max-width:510px){
    
-  #about .left p{
-         font-size: 3.5vw;
+  #container .left p{
+         font-size: 3vw;
          word-spacing: 0.5px;
    }
+#container .left,
+#container .right{
+   height:455px ;
    
 }
+}
+@media screen and (max-width:380px){
+   
+   #container .left p{
+          line-height: 2.25;
+    }
+   }

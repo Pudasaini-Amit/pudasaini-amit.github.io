@@ -1,31 +1,31 @@
-#container{
+#contact{
    background-color: #000013;
    padding: 1px;
 }
 
-#contact{
+#container{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    color: white;
 }
-#contact .left,
-#contact .right{
+#container .left,
+#container .right{
    width: 450px;
    height: 350px;
    padding: 20px;
    margin: 20px;
    font-family: Arial, sans-serif;
-   box-shadow: 1px 1px 50px #040422;
+   box-shadow: 1px 1px 50px #080841;
    text-align: center;
 }
 
-#contact .right .contact_details{
+#container .right .contact_details{
    text-align: left;
    padding: 2.5% 30%;
    font-size: 20px;
 }
-#contact .right .contact_details div{
+#container .right .contact_details div{
    padding: 2%;
    line-height: 1.6px;
 }
@@ -75,15 +75,15 @@
  }
  @media screen and (max-width:516px){
    
-   #contact .right p{
+   #container .right p{
           font-size: 3.5vw;
           word-spacing: 0.5px;
     }
-    #contact .right h3{
+    #container .right h3{
       font-size: 3.5vw;
       
     }
-    #contact .right {
+    #container .right {
       max-height: 300px;
    
    }

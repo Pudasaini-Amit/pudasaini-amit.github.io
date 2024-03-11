@@ -1,9 +1,15 @@
-
+#projects{
+   background-color:#000013;
+   padding-top: 1px;
+}
+#container{
+   display: flex;
+}
 .card{
-   height: 350px;
+   height: 370px;
    width: 300px;
    text-align: center;
    color:white;
-   box-shadow: 1px 1px 50px #040422;
+   box-shadow: 1px 1px 50px #080841;
    
 }

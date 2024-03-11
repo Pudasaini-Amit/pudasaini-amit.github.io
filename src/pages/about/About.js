@@ -5,9 +5,9 @@ import "./About.css";
 
 function About(){
    return(
-      <div style={{backgroundColor: "#000013", padding:1}}>
+      <div id="about" style={{backgroundColor: "#000013", padding:1}}>
          <h1>About Me</h1>
-         <div id="about">
+         <div id="container">
             
                   <div className="left">
                         <p>A graduate software developer form <a href="https://www.scu.edu.au/">Southern Cross University </a> 
@@ -30,7 +30,7 @@ function About(){
 
                   </div>
          </div>
-       </div> 
+      </div> 
    )
 }
 
